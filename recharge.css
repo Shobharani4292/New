@@ -1,0 +1,84 @@
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    direction: ltr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    padding: 10px;
+}
+.nav ul li a{
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+.container{
+    justify-content: space-between;
+    padding: 5% 2%;
+    width: 100vw;
+    margin-bottom: 20px;
+} 
+
+.container .row{
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: green;
+}
+.col1, .col{
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: green;
+}
+
+.container2{
+        padding: 5% 2%;
+        width: 100vw;
+        margin-bottom: 20px;
+        /* justify-content: space-evenly; */
+} 
+
+.container2 .row{
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: green;
+}
+.col3, .col4{
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: green;
+}
+
+footer{
+    color: white;
+    background-color: green;
+}
+.container3 .row{
+    padding: 20px;
+    margin: 35px 20px 20px 20px;
+    display: flex;
+    justify-content: space-evenly; 
+
+}
+.social{
+    text-align: center;
+    align-content: center;
+    display: flex;
+    direction: ltr;
+    margin-left: 45%;
+}
+
+
+.social ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;  
+}

@@ -1,0 +1,49 @@
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    direction: ltr;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav ul li{
+    padding: 10px;
+}
+.nav ul li a{
+    padding-left: 50px;
+    justify-content: space-around;
+}
+html, body{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+form{
+    background-color: aliceblue;
+    margin: auto;
+    display: table;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: green;
+    
+}
+input[type=text] {
+    border: 2px solid green; 
+    border-radius: 5%;
+}
+form .btn btn-success{
+    align-content: center;
+    margin-top: 10px;
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+

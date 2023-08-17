@@ -1,0 +1,45 @@
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    direction: ltr;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav ul li{
+    padding: 10px;
+}
+.nav ul li a{
+    padding-left: 50px;
+    justify-content: space-around;
+}
+body{
+    background-color: aliceblue;
+}
+form{
+    color: green;
+}
+input[type=text] {
+    border: 2px solid green; 
+    border-radius: 5%;
+    
+}
+
+p{
+    color: black;
+}
+#ID, #amount{
+    color: green;
+}
+.container{
+    margin-top: 30px;
+    border: 2px solid white;
+    background-color: white;
+    width: 500px;
+}
+.container .row{
+    display: flex;
+    justify-content: space-between;
+}
